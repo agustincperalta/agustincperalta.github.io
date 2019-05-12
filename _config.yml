@@ -22,9 +22,9 @@ avatar: https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&acce
 navigation:
   - name: Blog
     url: /
-  - name: About
+  - name: Sobre mí
     url: /about
-  - name: Archive
+  - name: Archivo
     url: /archive
   - name: Tags
     url: /tags

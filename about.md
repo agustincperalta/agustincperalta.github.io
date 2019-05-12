@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
+title: Sobre mi
 permalink: /about/
 ---
 
-Some information about you!
+Amo construir cosas que resuelvan problemas reales. Me gusta la programación, las matemáticas y seguir aprendiendo sobre distintos temas. 
 
-### More Information
+### Soy...
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+- Desarrollador de Software 
+- Ingeniero en Informática 
+- Estudiante de Licenciatura en Matemáticas 
+- Amante del arte y el atletismo :) 
 
-[email@domain.com](mailto:email@domain.com)
+### Contactame
+
+[agusmx77@gmail.com](mailto:email@domain.com)
