@@ -11,7 +11,7 @@ tags:
 ## Sistemas Expertos
 
 
-![an image alt text]({{ site.baseurl }}/images/inteligencia_artificial.jpg "an image title")
+![Expert Systems]({{ site.baseurl }}/images/Knowledge.jpg "Expert Systems")
 
 
 
