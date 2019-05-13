@@ -11,6 +11,9 @@ tags:
 
 ![Data types](/images/java-data-types.png "Data types"){: .center-image}
 
+
+
+
 En java existen dos tipos de datos: **primitivos y de referencia u objeto**, los cuales se pueden almacenar en una variable.
 
 **Variable**
