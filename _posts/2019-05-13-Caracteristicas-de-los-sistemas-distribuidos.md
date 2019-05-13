@@ -13,12 +13,12 @@ tags:
 
 
 Sistema Distribuido
-: Un **sistema distribuido** es el sistema en el que sus componentes están situados en computadoras conectadas a una **red**, se comunican y coordinan acciones por medio de la transmición de mensajes.
+: Un **sistema distribuido** es aquel que sus componentes están situados en computadoras conectadas a una **red**, se comunican y coordinan acciones por medio de la transmición de mensajes.
 
 
 ### Introducción
 
-Definimos a los **sistemas distribuidos** como en los que sus componentes de hardware y software localizados en computadoras en red se comunican y coordinan acciones con solo transmitir mensajes entre si.
+Definimos a los **sistemas distribuidos** como el sistema en el que sus componentes de hardware y software localizados en computadoras en red se comunican y coordinan acciones con solo transmitir mensajes entre si.
 
 Esto implica: 
 
