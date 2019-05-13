@@ -9,7 +9,11 @@ tags:
 
 ## Instalando el JDK y Configurando la variable JAVA_HOME en Linux
 
-1. Para instlar el **Java Development Kid**, haz lo siguiente
+
+![Java Linux](/images/java_linux.png "Java Linux")
+
+
+1. Para instlar el **Java Development Kit**, haz lo siguiente
     - Ve a la página de [Oracle](http://java.sun.com/javase/downloads/index.jsp)
     - Selecciona la versión adecuada del JDK y haz click en Descargar
 
@@ -23,7 +27,7 @@ Para **Korn y Shells Bash**, corre los siguientes comandos:
 
     export PATH=$JAVA_HOME/bin:$PATH
 
-    - Para Bourne Shelll, corre el siguientes comandos:
+Para **Bourne Shelll**, corre el siguientes comandos:
 
     JAVA_HOME=jdk-install-dir
 
