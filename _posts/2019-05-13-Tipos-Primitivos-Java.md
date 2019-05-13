@@ -19,7 +19,7 @@ En java existen dos tipos de datos: **primitivos y de referencia u objeto**, los
 
 A continuación se explican los tipos de datos primitivos
 
-##Tipos de datos Primitivos
+## Tipos de datos Primitivos
 
 Java tiene **ocho tipos de dato** incorporado, llamados **Tipos Primitivos de Java**. Estos ocho tipos de datos representan los bloques de construcción para los objetos de Java, porque todos los objetos de Java son solo una colección compleja de estos tipos de datos primitivo.
 
@@ -38,16 +38,16 @@ Java tiene **ocho tipos de dato** incorporado, llamados **Tipos Primitivos de Ja
 
 No es necesario memorizar los valores, pero nos sirven de referencia para entender y usar la variable correcta de acuerdo a las necesidades de nuestra aplicación. La manera en la que se obtienen estos valores es aplicando la formula:
     
-    Rango Negativo
+    Rango Negativo:
     -(2^n)/2
-    Rango Positivo
-    [(2<sup>n</sup>)/ 2] - 1  
+    Rango Positivo:
+    [(2^n)/ 2] - 1  
     donde n = valor en bits que la variable utiliza
 
 Por ejemplo para obtener los rangos del tipo entero byte: 
 
-    -(2<sup>n</sup>)/ 2 → -(2<sup>8</sup>)/2 → -256/2 → -128
-	[(2<sup>n</sup>)/ 2] - 1 → [256/2] – 1 → 128 – 1 → 127
+    -(2^n)/ 2 → -(2^8)/2 → -256/2 → -128
+	[(2^n)/ 2] - 1 → [256/2] – 1 → 128 – 1 → 127
 
 Cuando  un número es representado en nuestro código se le llama **literal**. Por defecto, **Java asume que se define una variable del tipo int como literal**. En el siguiente ejemplo, el número es mayor que  la capacidad de un int.
 
@@ -55,7 +55,7 @@ Cuando  un número es representado en nuestro código se le llama **literal**. P
     long max = 12345679; // NO COMPILA
     double number = 213431; // NO COMPILA
 ```
-En estos casos, debes añadir una letra l para los datos enteros y d para los datos con punto flotante despues de la literal. Se recomienda el uso de mayusculas debido a que estas no se confunde con números.
+En estos casos, debes añadir una letra l para los datos enteros y d para los datos con punto flotante despues de la literal. Se recomienda el uso de mayúsculas debido a que estas no se confunde con números.
 
 ```java
     long max = 12345679L; // COMPILA
@@ -65,11 +65,11 @@ En estos casos, debes añadir una letra l para los datos enteros y d para los da
 Otra manera de especificar números es **cambiando la base**. Java permite especificar digitos en muchos otros formatos:
 
 
-* **Octal** (digitos 0-7): Se usa el número 0 como prefijo de la literal, por ejemplo 017.
-* **Hexadecimal** (digitos 0-9 y letras A-F): Se usa el número 0 seguido de la letra x o X como prefijo, por ejemplo 0xFF y 0XA3
-* **Binario** (Digitos 0-1): Se usa el número 0 seguido de la letra b o B como prefijo, por ejemplo 0b10 y 0B10010
+* **Octal** (dígitos 0-7): Se usa el número 0 como prefijo de la literal, por ejemplo 017.
+* **Hexadecimal** (dígitos 0-9 y letras A-F): Se usa el número 0 seguido de la letra x o X como prefijo, por ejemplo 0xFF y 0XA3
+* **Binario** (Dígitos 0-1): Se usa el número 0 seguido de la letra b o B como prefijo, por ejemplo 0b10 y 0B10010
 
-Otra característica de Java es que puedes añadir a tus literales numéricas son los **guiones bajos** (_) para hacerlos más fácil de leer. Puedes añadir guiones bajos en cualquier parte del número, excepto al inicio y al final de este y en los a números con punto decimal, el guión no puede ir ni antes ni después del punto.
+Otra característica de Java es que puedes añadir a tus literales numéricas **guiones bajos** (_) para hacerlos más fácil de leer. Puedes añadir guiones bajos en cualquier parte del número, excepto al inicio y al final de este y en los a números con punto decimal, el guión no puede ir ni antes ni después del punto.
 
 ```java
     double = _1000.0 // NO COMPILA
@@ -90,7 +90,7 @@ Al crear nuestras variables debemos tener en consideración algunas reglas bási
 * Las constantes se escriben en mayúsculas y contienen _ como espacios
 * Por convención se debe usar la técnica “Camel Case”
 * Upper Camel Case para nombre de clases: NombreDeClase
-* Lower Camel Case para variables y metodos
+* Lower Camel Case para variables y métodos
 
 
 
