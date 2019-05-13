@@ -9,7 +9,7 @@ tags:
 
 ## TIPOS DE DATOS EN JAVA (PRIMITIVOS)
 
-![Variables](/images/variable.png "Variables"){: .center-image}
+![Data types](/images/java-data-types.png "Data types"){: .center-image}
 
 En java existen dos tipos de datos: **primitivos y de referencia u objeto**, los cuales se pueden almacenar en una variable.
 
@@ -39,12 +39,47 @@ No es necesario memorizar los valores, pero nos sirven de referencia para entend
     
     -(2<sup>n</sup>)/ 2 para el rango negativo y  [(2<sup>n</sup>)/ 2] - 1 para el positivo donde n es el tipo de valor en bits que la variable utiliza. 
 
+Por ejemplo para obtener los rangos del tipo entero byte: 
+
+    -(2<sup>n</sup>)/ 2 → -(2<sup>8</sup>)/2 → -256/2 → -128
+	[(2<sup>n</sup>)/ 2] - 1 → [256/2] – 1 → 128 – 1 → 127
+
+Cuando  un número es representado en nuestro código se le llama **literal**. Por defecto, **Java asume que se define una variable del tipo int como literal**. En el siguiente ejemplo, el número es mayor que  la capacidad de un int.
+
+```java
+    long max = 12345679; // No compila
+```
+En estos casos , debes añadir una letra l al numero. Pero se recomienda el uso de la letra L mayuscula debido a que está no se confunde con el número 1.
+
+Otra manera de especificar números es cambiando la base. Java permite especificar digitos en muchos otros formatos:
 
 
+* Octal (digitos 0-7): Se usa el número 0 como prefijo de la literal, por ejemplo 017.
+* Hexadecimal (digitos 0-9 y letras A-F): Se usa el número 0 seguido de la letra x o X como prefijo, por ejemplo 0xFF y 0XA3
+* Binario (Digitos 0-1): Se usa el número 0 seguido de la letra b o B como prefijo, por ejemplo 0b10 y 0B10010
 
+Otra característica de Java es que puedes añadir a tus literales numéricas son los **guiones bajos** (_) para hacerlos más fácil de leer. Puedes añadir guiones bajos en cualquier parte del número, excepto al inicio y al final de este y en cuanto a números con punto decimal, el guion no puede ir ni antes ni después del punto.
 
+```java
+    double = _1000.0 // NO COMPILA
+	double = 1000.0_; // NO COMPILA
+	double notByDecimal = 1000_.00 // NO COMPILA
+	Int million = 1_000_000 // COMPILA
+	int anotherVarialble = 1_00_0.0_0; // COMPILA
 
+```
 
+## Naming y Camel Case
+
+Al crear nuestras variables debemos tener en consideración algunas reglas básicas:
+
+* Las variables son sensibles a las Mayúsculas y minúsculas
+* Deben comenzar con letra, ,$, o _
+* Las letras posteriores pueden ser letras, números, $ y _
+* Las constantes se escriben en mayúsculas y contienen _ como espacios
+* Por convención se debe usar la técnica “Camel Case”
+* Upper Camel Case para nombre de clases: NombreDeClase
+* Lower Camel Case para variables y metodos
 
 
 
