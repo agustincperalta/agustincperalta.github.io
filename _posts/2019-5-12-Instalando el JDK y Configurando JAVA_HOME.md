@@ -17,7 +17,7 @@ tags:
     - Ve a la página de [Oracle](http://java.sun.com/javase/downloads/index.jsp)
     - Selecciona la versión adecuada del JDK y haz click en Descargar
 
-El JDK es instalado en tu computadora en la ubicación por defecto: `/usr/jdk/jdk_version_` Pero puedes cambiar la localización.
+   El JDK es instalado en tu computadora en la ubicación por defecto: `/usr/jdk/jdk_version_` Pero puedes cambiar la localización.
 
 2. Para configurar la variable de entorno $JAVA_HOME:
   
