@@ -13,11 +13,11 @@ tags:
     - Ve a la página de [Oracle](http://java.sun.com/javase/downloads/index.jsp)
     - Selecciona la versión adecuada del JDK y haz click en Descargar
 
-El JDK es instalado en tu computadora en la ubicación por defecto, en `/usr/jdk/jdk1.6.0_02` Puedes cambiar la localización.
+El JDK es instalado en tu computadora en la ubicación por defecto, en `/usr/jdk/jdk_version_` Puedes cambiar la localización.
 
 2. Para configurar JAVA_HOME:
   
-- Para Korn y Shells Bash, corre los siguientes comandos:
+Para **Korn y Shells Bash**, corre los siguientes comandos:
 
     export JAVA_HOME=jdk-install-dir
 
@@ -33,7 +33,7 @@ El JDK es instalado en tu computadora en la ubicación por defecto, en `/usr/jdk
     
     export PATH
 
-- Para C shell, corre los siguientes comandos:
+Para **C shell**, corre los siguientes comandos:
 
     setenv JAVA_HOME jdk-install-dir
 
@@ -42,7 +42,7 @@ El JDK es instalado en tu computadora en la ubicación por defecto, en `/usr/jdk
     export PATH=$JAVA_HOME/bin:$PATH
 
 
-Cambia los permisos para que puedas correr el instalador ESB GlassFish ejecutando el siguiente comando:
+Cambia los permisos para que puedas correr el instalador **ESB GlassFish** ejecutando el siguiente comando:
 
     chmod 755 JavaCAPS.bin
 
