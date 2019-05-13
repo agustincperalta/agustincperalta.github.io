@@ -10,7 +10,7 @@ tags:
 ## Instalando el JDK y Configurando la variable JAVA_HOME en Sistemas UNIX
 
 
-![Java Linux](/images/java_linux.png "Java Linux")
+![Java Linux](/images/java_linux.png "Java Linux"){: .center-image}
 
 
 1. Para instalar el **Java Development Kit**, haz lo siguiente
