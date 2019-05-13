@@ -11,6 +11,7 @@ tags:
 
 ![Sistemas Distribuidos](/images/distributed_sistems.png "Sistemas Distribuidos"){: .center-image}
 
+
 Sistema Distribuido
 : Un **sistema distribuido** es el que sus componentes están situados en computadoras conectadas a una **red**, se comunican y coordinan acciones por medio de la transmición de mensajes.
 
@@ -110,4 +111,23 @@ En el **modelo cliente servidor** las peticiones son mandadas en mensajes desde 
 
 En un **sistema distribuido** construido sobre un lenguaje **orientado a objetos**, los recursos pueden ser encapsulados como objetos y accesados como objetos de clientes.
 
+## Retos
 
+Como el alcance y el tamaño de los Sistemas Ditribuidos y aplicaciones va creciendo, lo mismo ocurre para los retos que son probable que se encuentren:
+
+
+* **Heterogeneidad**: Deben ser construidos desde una variedad de diferentes redes, sistemas operativos, hardware y lenguajes de programación. Los protocolos de comunicación del Internet ocultan la diferencia entre redes y el middleware puede lidiar con las demás diferencias.
+
+* **Apertura**: Los sistemas Distribuidos deben poder expanderse y crecer. El primer paso es publicar las interfaces de los componentes, pero la integración de componentes escritos por distintos programadores es un reto.
+
+* **Seguridad**: El encriptado puede ser usado para dar protección adecuada a los recursos compartidos y mantener la información sensible secreta cuando se transmite en mensajes sobre la red. Los ataques de denegación de servicio siguen siendo un problema.
+
+* **Escalabilidad**: Un Sistema Distribuido es escalable si el costo de añadir un usuario es una cantidad constante en términos de los recursos que deban ser añadidos. Los algoritmos usados para acceder a los datos compartidos deben evitar cuellos de botella y los datos deben ser estructurados jerárquicamente para obtener los mejores tiempos de acceso. Los datos accesados pueden ser replicados.
+
+* **Manejo de Fallas**: Cualquier proceso, computadora o red puede fallar independientemente de los demás componentes. Así cada componente necesita estar cociente de las posibles maneras en las que los componentes en los que dependen pueden fallar y ser diseñados para lidiar con cada uno de las fallas apropiadamente
+
+* **Concurrencia**: La presencia de múltiples usuarios en un sistema distribuido se traduce a una fuente de peticiones concurrentes a sus recursos. Cada recurso debe estar diseñado para ser seguro en un entorno concurrente.
+
+* **Transparencia**: La finalidad es hacer ciertos aspectos de la distribución invisibles para el programador de la aplicación, así solo necesitan estar preocupados del diseño de su aplicación en particular. Por ejemplo, no se tienen que preocupar por su localización o los detalles de como sus operaciones son accesadas por otros componentes, o si sera replicado o migrado. Incluso fallas de la red y los procesos pueden ser presentados a los programadores en forma de excepciones (pero aun asi deben ser manejadas).
+
+* **Calidad del Servicio**: No es suficiente proveer acceso a los servicios en los sistemas distribuidos. En particular, también es importante proveer garantías además de las cualidades asociadas con el acceso al servicio. Ejemplos de estas cualidades incluyen parámetros relacionados con el rendimiento, seguridad y confiabilidad.
