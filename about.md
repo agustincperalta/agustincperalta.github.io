@@ -9,10 +9,11 @@ Amo construir cosas que resuelvan problemas reales. Me gusta la programación, l
 ### Soy...
 
 
-- Desarrollador de Software:triangular_ruler:
-- Ingeniero en Informática:computer:
-- Estudiante de Licenciatura en Matemáticas:closed_book:
-- Amante del arte y el atletismo:running:
+- Desarrollador de Software
+- Ingeniero en Informática
+- Estudiante de Licenciatura en Matemáticas
+- Amante del arte 
+- Entuasiasta del atletismo
 
 ### Contactame
 
