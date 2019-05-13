@@ -13,35 +13,36 @@ tags:
     - Ve a la página de [Oracle](http://java.sun.com/javase/downloads/index.jsp)
     - Selecciona la versión adecuada del JDK y haz click en Descargar
 
-El JDK es instalado en tu computadora en la ubicación por defecto, en /usr/jdk/jdk1.6.0_02. Puedes cambiar la localización.
+El JDK es instalado en tu computadora en la ubicación por defecto, en `/usr/jdk/jdk1.6.0_02` Puedes cambiar la localización.
 
 2. Para configurar JAVA_HOME:
-    - Para Korn y Shells Bash, corre los siguientes comandos:
-    For Korn and bash shells, run the following commands:
+  
+- Para Korn y Shells Bash, corre los siguientes comandos:
 
-export JAVA_HOME=jdk-install-dir
+    export JAVA_HOME=jdk-install-dir
 
-export PATH=$JAVA_HOME/bin:$PATH
+    export PATH=$JAVA_HOME/bin:$PATH
 
-For the bourne shell, run the following commands:
+    - Para Bourne Shelll, corre el siguientes comandos:
 
-JAVA_HOME=jdk-install-dir
+    JAVA_HOME=jdk-install-dir
 
-export JAVA_HOME
+    export JAVA_HOME
 
-PATH=$JAVA_HOME/bin:$PATH
+    PATH=$JAVA_HOME/bin:$PATH
+    
+    export PATH
 
-export PATH
+- Para C shell, corre los siguientes comandos:
 
-For the C shell, run the following commands:
+    setenv JAVA_HOME jdk-install-dir
 
-setenv JAVA_HOME jdk-install-dir
+    setenv PATH $JAVA_HOME/bin:$PATH
 
-setenv PATH $JAVA_HOME/bin:$PATH
+    export PATH=$JAVA_HOME/bin:$PATH
 
-export PATH=$JAVA_HOME/bin:$PATH
 
-Change the permissions to enable you to run the GlassFish ESB Installer by running the following command:
+Cambia los permisos para que puedas correr el instalador ESB GlassFish ejecutando el siguiente comando:
 
-chmod 755 JavaCAPS.bin
+    chmod 755 JavaCAPS.bin
 
