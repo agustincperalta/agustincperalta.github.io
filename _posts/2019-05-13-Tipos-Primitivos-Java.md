@@ -23,16 +23,16 @@ A continuación se explican los tipos de datos primitivos
 
 Java tiene **ocho tipos de dato** incorporado, llamados **Tipos Primitivos de Java**. Estos ocho tipos de datos representan los bloques de construcción para los objetos de Java, porque todos los objetos de Java son solo una colección compleja de estos tipos de datos primitivo.
 
-| **Identificador** | **Tipo** | **Rango** | **Ejemplo**
-|:--------|:-------:|--------:|--------:|
-| boolean   | 16 bits | true o false  |  true   |
-| byte   |   8 bit  | -128 a 127   |   15  |
-| short  |  16 bits  |  -32,768 a 32,767   |  15,858   |
-| int   |  32 bits  | -2,147,483,648 a 2,147,483,647   |  4,132,852   |
-| long   |  64 bits  |  9,223,372,036,854,775,808 a +9,223,372,036,854,775,807  |   5,462,895,628,956|
-| float   | 32 bits  |  1.40129846432481707e-45 a 3.40282346638528860e+38 | 123 .45F   |
-| double   |  64 bits  |  4.94065645841246544e-324d a 1.79769313486231570e+308d  |  123.456   |
-|char|16 bits |UNICODE|‘a’|
+| **Identificador** | **Tipo** | **Rango** | **Ejemplo**| **Valor por Defecto**
+:--------|:-------:|--------:|--------:|
+| boolean   | 16 bits | true o false  |  true   | false | 
+| byte   |   8 bit  | -128 a 127   |   15  | 0 | 
+| short  |  16 bits  |  -32,768 a 32,767   |  15,858   | 0 |
+| int   |  32 bits  | -2,147,483,648 a 2,147,483,647   |  4,132,852   | 0 |
+| long   |  64 bits  |  9,223,372,036,854,775,808 a +9,223,372,036,854,775,807  |   5,462,895,628,956|0|
+| float   | 32 bits  |  1.40129846432481707e-45 a 3.40282346638528860e+38 | 123 .45F   | 0.0F|
+| double   |  64 bits  |  4.94065645841246544e-324d a 1.79769313486231570e+308d  |  123.456   | 0.0D
+|char|16 bits |UNICODE|‘a’| 'u0000'
 
 No es necesario memorizar los valores, pero nos sirven de referencia para entender y usar la variable correcta de acuerdo a las necesidades de nuestra aplicación. La manera en la que se obtienen estos valores es aplicando la formula:
     
