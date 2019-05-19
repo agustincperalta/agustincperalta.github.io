@@ -11,7 +11,6 @@ Amo construir cosas que resuelvan problemas reales. Me gusta la programación, l
 
 - Desarrollador de Software
 - Ingeniero en Informática
-- Estudiante de Licenciatura en Matemáticas
 - Amante del arte y Entusiasta del Atletismo
 
 ### Contactame
