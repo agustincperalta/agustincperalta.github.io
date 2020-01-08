@@ -4,7 +4,7 @@ title: Sobre mi
 permalink: /about/
 ---
 
-Me gusta aprender y construir cosas con computadoras, la programación, las matemáticas
+Me gusta aprender y construir cosas con computadoras, la programación y las matemáticas
 
 ### Soy...
 
