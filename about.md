@@ -4,14 +4,14 @@ title: Sobre mi
 permalink: /about/
 ---
 
-Amo construir cosas que resuelvan problemas reales. Me gusta la programación, las matemáticas y seguir aprendiendo sobre distintos temas. 
+Me gusta aprender y construir cosas con computadoras, la programación, las matemáticas
 
 ### Soy...
 
 
 - Desarrollador de Software
 - Ingeniero en Informática
-- Amante del arte y Entusiasta del Atletismo
+
 
 ### Contactame
 
