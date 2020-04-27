@@ -1,7 +1,18 @@
 
  
 
+---
+layout: post
+title: Tipos de Datos en Java - Primitivos
+tags:
+  - Java
+  - primitivos
+  - CamelCase
+---
+
  # AWS Lambdas Tutorial
+
+ ![AWS Lambdas](/images/lambda.png "Lambdas"){: .center-image}
 
 
 [1. Introducción a las Lambdas de AWS](#1-introducci%c3%b3n)   
