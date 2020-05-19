@@ -13,12 +13,13 @@ tags:
 
 
 
-![Twilio Webhooks](images/webhook.png)
+![Twilio Webhooks](../images/webhook.png)
 
 Twilio utiliza **webhooks** para informarle a tu aplicación cuando se recibe un mensaje. Cuando se produce el evento, Twilio realiza una **solicitud HTTP sincrónica**  (generalmente una POST o una GET) a la URL configurada al telefono, la solicitud de Twilio incluye detalles del evento, descritos en la **tabla  [Parametros de Solicitud](#par%c3%a1metros-de-solicitud)**. La solicitud HTTP se realiza como un navegador web normal, en el formato application **x-www- form-urlencoded**. Cuando Twilio recibe un mensaje para uno de sus números, espera recibir **TwiML** en respuesta. 
 Twilio envía los siguientes **parámetros** con su solicitud como parámetros POST o parámetros de consulta URL, según el método HTTP que haya configurado:
 
 ### Parámetros de solicitud
+
 PARÁMETRO | DESCRIPCIÓN 
 ---|---
 MessageSid | Un identificador único de 34 caracteres para el mensaje. Puede usarse para recuperar más tarde este mensaje de la API REST.
@@ -32,7 +33,7 @@ NumMedia | El número de elementos multimedia asociados con su mensaje.
 Twilio también envía los siguientes parámetros cuando hay medios, como imágenes, asociados con el mensaje:
 
 PARÁMETRO | DESCRIPCIÓN 
----|---
+----------|------------
 MediaContentType {N} | Los ContentTypes para los medios almacenados en MediaUrl {N}. El orden de MediaContentType {N} coincide con el orden de MediaUrl {N}. Si más de un elemento de los medios de comunicación se indica mediante NumMedia que MediaContentType {N} se utilizarán, donde N es el índice de base cero de los medios de comunicación (por ejemplo MediaContentType0)
 MediaUrl {N} | Una URL que hace referencia al contenido de los medios recibidos en el Mensaje. Si más de un elemento de los medios de comunicación se indica mediante NumMedia que mediaUrl será utilizado {N}, donde N es el índice de base cero de los medios de comunicación (por ejemplo MediaUrl0)
 
@@ -71,5 +72,5 @@ Necesitamos hacer unión a partir de la salida de nuestra función Lambda. Gener
  $input.path('$')
 ```
 
-A continuación podemos crear nuestra Lambda y subir nuestro paquete de despliege en Java con la estructura que se encuentra en la [guia lambda]().
+A continuación podemos crear nuestra Lambda y subir nuestro paquete de despliege en Java con la estructura que se encuentra en la [guia lambda](2020-04-27-AWS-Lambdas.md).
 Es importante recalcar que en esté caso Twilio mandara la petición a la lambda por medio de nuestro end-point descrito en lambda (POST o GET) con los parametros descritos en la [tabla](#par%c3%a1metros-de-solicitud) almacenados en la variable local **event** y está misma lambda deberá contestar con un formato TwiML que puede generarse con ayuda del SDK que se importa a nuestro proyecto.
